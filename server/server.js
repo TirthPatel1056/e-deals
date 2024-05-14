@@ -38,8 +38,6 @@ app.use("/api/form", contactRouter);
 
 
 
-
-
 app.get("/xyz", (res) => {
     res.status(200).json({msg:"i am xyz....."})
 });
